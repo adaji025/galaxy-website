@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap");
+:root {
+  --dark: #250b3a;
+  --blue-50: #549cc0;
+  --light: #b6b6b6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+html,
+body {
+  background: #250b3a;
+  color: var(--light);
+}
+
+.fs-64 {
+  font-size: 64px;
+}
+.fs-52 {
+  font-size: 52px;
+}
+.navbar {
+  background: var(--dark) !important;
+}
+.launch-app {
+  background: var(--blue-50) !important;
+}
+.buy-gyx {
+  background: linear-gradient(90deg, #549cc0 1.7%, #3b4e9d 101.56%) !important;
+  opacity: 0.9 !important;
+  border-radius: 6.64px !important;
+}
+.create-node {
+  background: linear-gradient(90deg, #549cc0 1.7%, #00b0c8 101.56%) !important;
+  opacity: 0.9 !important;
+  border-radius: 6.64px !important;
+}
+.intro h1 {
+  font-size: 64px;
+}
+.intro h1 span {
+  color: var(--blue-50);
+}
+
+.galaxy-node h1 {
+  font-size: 64px;
+}
+
+.galaxy-node h1 span {
+  color: var(--blue-50);
+}
+.blockchain-node {
+  border: 0.867355px solid rgba(255, 255, 255, 0.08);
+  box-sizing: border-box;
+  border-radius: 10.4083px;
+  margin-top: 6rem;
+}
+.how-to-join {
+  margin-top: 10rem;
+}
+.how-to-join .box {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  box-sizing: border-box;
+  backdrop-filter: blur(200px);
+
+  border-radius: 18px;
+}
+.our-mission {
+  margin-top: 10rem;
+}
+.passive-income {
+  min-height: 350px;
+  margin-top: 10rem;
+}
+.passive-income .earn {
+  color: var(--blue-50);
+}
+
+.passive-income .digital-node {
+  display: flex;
+  max-width: 500px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.02);
+  border: 0.887743px solid rgba(255, 255, 255, 0.05);
+  box-sizing: border-box;
+  border-radius: 15.9794px;
+}
+.passive-income .digital-node img {
+  width: 100px;
+}
+
+.faq {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+.faq .faq-box {
+  max-width: 351px;
+  min-height: 171px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1e1a43;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+.faq .faq-box .img {
+  position: absolute;
+  bottom: -17px;
+  background: linear-gradient(180deg, #2f80ed 0%, #02aeca 100%);
+  transform: translate(8px);
+}
+.faq .more {
+  color: #2f80ed;
+}
+
+.learn .nft {
+  max-width: 618px;
+  min-height: 391px;
+  background: linear-gradient(
+      0deg,
+      rgba(38, 1, 68, 0.75),
+      rgba(38, 1, 68, 0.75)
+    ),
+    url(.jpg);
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-end; */
+  justify-content: end;
+  margin-bottom: 10rem;
+}
+.nft p {
+  font-size: 36px;
+}
+.nft button {
+  color: #b6b6b6 !important;
+  background: #1e1a43 !important;
+}
+.learn {
+    margin-bottom: 10rem;
+}
+.learn .card {
+  background: none !important;
+  border: 1px solid rgba(255, 255, 255, 0.05) !important;
+  border-radius: 18px !important;
+}
+
+.learn .card .btn {
+  background: #1e1a43 !important;
+  color: #b6b6b6 !important;
+}
+.learn .see-all {
+    color: #549CC0;
+}
+ footer a {
+     text-decoration: none;
+     color: inherit;
+ }
