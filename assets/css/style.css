@@ -23,6 +23,9 @@ body {
 .fs-52 {
   font-size: 52px;
 }
+.fs-16 {
+  font-size: 16px;
+}
 .navbar {
   background: var(--dark) !important;
 }
@@ -164,6 +167,7 @@ svg:hover {
 .learn .see-all {
   color: #549cc0;
 }
+
 footer a {
   text-decoration: none;
   color: inherit;
@@ -181,6 +185,20 @@ footer a {
     border-radius: 15.9794px;
   }
 }
+@media (min-width:768px) {
+  .w-md-75 {
+    width: 75% !important;
+  }
+}
+@media (min-width:576px) {
+  .w-sm-25 {
+    width: 25% !important;
+  }
+  .w-sm-50 {
+    width: 50% !important ;
+  }
+}
+
 @media (max-width: 576px) {
   .fs-64,
   .fs-52 {
