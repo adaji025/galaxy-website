@@ -28,16 +28,19 @@ body {
 }
 .launch-app {
   background: var(--blue-50) !important;
+  min-width: 200px;
 }
 .buy-gyx {
   background: linear-gradient(90deg, #549cc0 1.7%, #3b4e9d 101.56%) !important;
   opacity: 0.9 !important;
   border-radius: 6.64px !important;
+  min-width: 200px;
 }
 .create-node {
   background: linear-gradient(90deg, #549cc0 1.7%, #00b0c8 101.56%) !important;
   opacity: 0.9 !important;
   border-radius: 6.64px !important;
+  
 }
 /* .intro h1 {
   font-size: 64px;
@@ -46,9 +49,9 @@ body {
   color: var(--blue-50);
 }
 
-.galaxy-node h1 {
+/* .galaxy-node h1 {
   font-size: 64px;
-}
+} */
 
 .galaxy-node h1 span {
   color: var(--blue-50);
@@ -170,4 +173,12 @@ body {
    .fs-64 {
     font-size: 36px;
    }
+   .launch-app {
+    
+    min-width: 150px;
+  }
+  .buy-gyx {
+    
+    min-width: 150px;
+  }
  }
