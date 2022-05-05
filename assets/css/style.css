@@ -40,7 +40,6 @@ body {
   background: linear-gradient(90deg, #549cc0 1.7%, #00b0c8 101.56%) !important;
   opacity: 0.9 !important;
   border-radius: 6.64px !important;
-  
 }
 /* .intro h1 {
   font-size: 64px;
@@ -87,9 +86,7 @@ body {
 .passive-income .digital-node {
   display: flex;
   max-width: 500px;
-  position: absolute;
-  right: 0;
-  bottom: 0;
+  
   background: rgba(255, 255, 255, 0.02);
   border: 0.887743px solid rgba(255, 255, 255, 0.05);
   box-sizing: border-box;
@@ -105,7 +102,7 @@ body {
 }
 
 .faq .faq-box {
-  max-width: 351px;
+  min-width: 351px;
   min-height: 171px;
   display: flex;
   justify-content: center;
@@ -149,7 +146,7 @@ body {
   background: #1e1a43 !important;
 }
 .learn {
-    margin-bottom: 10rem;
+  margin-bottom: 10rem;
 }
 .learn .card {
   background: none !important;
@@ -162,23 +159,37 @@ body {
   color: #b6b6b6 !important;
 }
 .learn .see-all {
-    color: #549CC0;
+  color: #549cc0;
 }
- footer a {
-     text-decoration: none;
-     color: inherit;
- }
-
- @media (max-width: 576px) {
-   .fs-64 {
+footer a {
+  text-decoration: none;
+  color: inherit;
+}
+@media (min-width: 1000px) {
+  .passive-income .digital-node {
+    display: flex;
+    max-width: 500px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.02);
+    border: 0.887743px solid rgba(255, 255, 255, 0.05);
+    box-sizing: border-box;
+    border-radius: 15.9794px;
+  }
+}
+@media (max-width: 576px) {
+  .fs-64,
+  .fs-52 {
     font-size: 36px;
-   }
-   .launch-app {
-    
+  }
+  .launch-app {
     min-width: 150px;
   }
   .buy-gyx {
-    
     min-width: 150px;
   }
- }
+  .faq .faq-box {
+    min-width: 280px;
+  }
+}
