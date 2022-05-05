@@ -39,9 +39,9 @@ body {
   opacity: 0.9 !important;
   border-radius: 6.64px !important;
 }
-.intro h1 {
+/* .intro h1 {
   font-size: 64px;
-}
+} */
 .intro h1 span {
   color: var(--blue-50);
 }
@@ -164,4 +164,10 @@ body {
  footer a {
      text-decoration: none;
      color: inherit;
+ }
+
+ @media (max-width: 576px) {
+   .fs-64 {
+    font-size: 36px;
+   }
  }
