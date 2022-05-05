@@ -41,16 +41,18 @@ body {
   opacity: 0.9 !important;
   border-radius: 6.64px !important;
 }
-/* .intro h1 {
-  font-size: 64px;
-} */
+
 .intro h1 span {
   color: var(--blue-50);
 }
 
-/* .galaxy-node h1 {
-  font-size: 64px;
-} */
+svg:hover {
+  filter: drop-shadow(0px 0px 1px #fff)
+    drop-shadow(0px 0px 3px #fff)
+    drop-shadow(0px 0px 10px #549cc0)
+    drop-shadow(0px 0px 30px #549cc0)
+    drop-shadow(0px 0px 50px #549cc0);
+}
 
 .galaxy-node h1 span {
   color: var(--blue-50);
