@@ -20,6 +20,9 @@ body {
 .fs-64 {
   font-size: 64px;
 }
+.fs-48  {
+  font-size: 48px;
+}
 .fs-52 {
   font-size: 52px;
 }
@@ -76,6 +79,10 @@ svg:hover {
   backdrop-filter: blur(200px);
 
   border-radius: 18px;
+}
+.how-to-join .box:hover {
+  background: var(--blue-50);
+  color: white;
 }
 .our-mission {
   margin-top: 10rem;
@@ -139,7 +146,6 @@ svg:hover {
   border-radius: 18px;
   display: flex;
   flex-direction: column;
-  /* align-items: flex-end; */
   justify-content: end;
   margin-bottom: 10rem;
 }
@@ -172,19 +178,7 @@ footer a {
   text-decoration: none;
   color: inherit;
 }
-@media (min-width: 1000px) {
-  .passive-income .digital-node {
-    display: flex;
-    max-width: 500px;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    background: rgba(255, 255, 255, 0.02);
-    border: 0.887743px solid rgba(255, 255, 255, 0.05);
-    box-sizing: border-box;
-    border-radius: 15.9794px;
-  }
-}
+
 @media (min-width:768px) {
   .w-md-75 {
     width: 75% !important;
@@ -201,7 +195,7 @@ footer a {
 
 @media (max-width: 576px) {
   .fs-64,
-  .fs-52 {
+  .fs-52, .fs-48 {
     font-size: 36px;
   }
   .launch-app {
